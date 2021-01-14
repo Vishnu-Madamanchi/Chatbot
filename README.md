@@ -5,7 +5,9 @@ Chatbot: Building a Seq2Seq Model using Attention Mechanism
 Cornell Movie dataset:
 This corpus contains a large metadata-rich collection of fictional conversations extracted from raw movie scripts and is sufficiently large for training.
 https://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html
+
 Next:
+
 We are going to use Cornell movie dialogs data for our project because it is publicly available and is sufficiently large. This corpus contains a large metadata-rich collection of fictional conversations extracted from raw movie scripts. 220,579 conversational exchanges between 10,292 pairs of movie characters.
 
 ## Approach:
@@ -34,6 +36,9 @@ We are going to use Cornell movie dialogs data for our project because it is pub
 
 ● Little research on Seq2Seq Model with and without attention mechanism
 
+![nlp_pic1](https://user-images.githubusercontent.com/27280953/104544377-94661a80-55f5-11eb-9e0a-aa079baf2c51.png)
+
+
 ● a sequence to sequence model aims to map a fixed-length input with a fixed-length output where the length of the input and output may differ.
 
 Limitations:
@@ -41,6 +46,11 @@ Limitations:
   In the case of long sequences, there is a high probability that the initial context has been lost by the end of the sequence.
 
 To overcome the limitation of the encoder-decoder model, Attention Mechanism was introduced in the Seq2Seq Model.
+
+Seq2Seq Model with Attention Mechanism:
+
+![nlp_pic2](https://user-images.githubusercontent.com/27280953/104544473-d0997b00-55f5-11eb-8221-2e4c68eaac23.png)
+
 
 ### Step 3: Model Running
 
@@ -60,6 +70,17 @@ Loss: Binary Cross entropy, Batch size: 64, Number of epochs: 100
 
 ### Step 5:Model Evaluation
 ● Used Bleu score to compare the context of the output with the actual answer.
+
+## Results:
+
+![nlp_pic4](https://user-images.githubusercontent.com/27280953/104544527-f9ba0b80-55f5-11eb-984d-ded9a73d0b83.png)
+
+
+![nlp_pic5](https://user-images.githubusercontent.com/27280953/104544542-02124680-55f6-11eb-8a67-a0dd8bc33037.png)
+
+
+![nlp_pic6](https://user-images.githubusercontent.com/27280953/104544559-0b031800-55f6-11eb-8b36-14cb735b3c29.png)
+
 
 ## Summary:
 
