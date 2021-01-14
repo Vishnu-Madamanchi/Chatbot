@@ -79,8 +79,6 @@ Loss: Binary Cross entropy, Batch size: 64, Number of epochs: 100
 ![nlp_pic5](https://user-images.githubusercontent.com/27280953/104544542-02124680-55f6-11eb-8a67-a0dd8bc33037.png)
 
 
-![nlp_pic6](https://user-images.githubusercontent.com/27280953/104544559-0b031800-55f6-11eb-8b36-14cb735b3c29.png)
-
 
 ## Summary:
 
