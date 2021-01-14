@@ -11,14 +11,20 @@ We are going to use Cornell movie dialogs data for our project because it is pub
 ## Approach:
 Step 1: Data Preprocessing:
 ● Splitting and cleaning the text (ex I’m to I am)
+
 ● Split and store questions and replies separately
+
 ● Filtering out the required length of conversations using minimum & maximum threshold
+
 ● Selection of records as training on whole data is computationally expensive
+
 ● Tokenizing data
 ● Splitting into train-test
 ● Build vocabulary
 ● Remove rare words using min frequency
 ● Padding of sentences
+
+
 Step 2: Model Building
 ● Little research on Seq2Seq Model with and without attention mechanism
 Seq2Seq Model without attention: (Encoder - Decoder Model)
@@ -34,6 +40,8 @@ Step 3: Model Running
 ● For training a sample of 1k samples using Google Colab GPU took about 5 hours to run.
 ● Researched about different GPU Options and finally chose Floyd Hub GPU services to train our model.
 ● Final model is trained on 100k samples and the total time taken to train the model is 4 hours using Floyd Hub GPU services.
+
+
 Step 4: Hyper parameter tuning
 ● Referred various articles to choose the best hyper parameters for the Seq2Seq Model.
 Embedding Size: 128, Hidden states in each LSTM: 512, optimizer: Adam
